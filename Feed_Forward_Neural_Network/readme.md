@@ -98,16 +98,18 @@ Project workflow includes:
 
 ---
 
+
 ## Repository Structure
 
 ```text
 Feed_Forward_Neural_Network/
 │
 ├── datasets/
-│   └── customer_churn_dataset.csv
+│   ├── customer_churn_dataset-training-master.csv
+│   └── customer_churn_dataset-testing-master.csv
 │
 ├── projects/
-│   └── customer_churn_fnn.py
+│   └── FeedForwardNN_CustomerChurn.py
 │
 ├── README.md
 └── requirements.txt
