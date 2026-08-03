@@ -88,9 +88,6 @@ The objective of this repository is to understand the complete workflow of seque
 ```text
 Recurrent_Neural_Network/
 │
-├── datasets/
-│   └── IMDB_Dataset_CLEANED.csv
-│
 ├── projects/
 │   └── IMDb_Sentiment_Analysis_RNN.py
 │
@@ -102,18 +99,15 @@ Recurrent_Neural_Network/
 
 # Dataset
 
-This repository includes the **IMDb Movie Review Sentiment Analysis Dataset**.
+This project uses the **IMDb Movie Review Sentiment Analysis Dataset**.
 
-Dataset File:
+The dataset is **not included** in this repository due to GitHub file size limitations.
 
-- `datasets/IMDB_Dataset_CLEANED.csv`
+You can download the dataset from Kaggle:
 
-The dataset contains movie reviews labeled as:
+https://www.kaggle.com/datasets/hqdataprofiler/imdb-dataset-of-50k-movie-reviews-cleaned
 
-- Positive
-- Negative
-
-It is used to train and evaluate a Recurrent Neural Network (RNN) for binary sentiment classification.
+After downloading, place the dataset on your local machine and update the dataset path inside the Python script.
 
 ---
 
@@ -156,4 +150,6 @@ pip install -r requirements.txt
 
 ---
 
-This repository is part of my **Deep Learning** learning journey, where I implement neural network architectures from scratch using **TensorFlow** and **Keras**, build practical projects, and upload them to GitHub as part of my AI Engineer roadmap.
+
+
+This repository is part of my **Deep Learning** learning journey, where I implement neural network architectures using **TensorFlow** and **Keras**, build practical projects, and upload them to GitHub as part of my AI Engineer roadmap.
